@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-4-14, 11:50:04
+    Author     : chenjiawei
+*/
+
+.button {
+    -fx-background-radius: 20;
+    /*-fx-background-color: b3ccff;*/
+    -fx-border-color: rgb(49, 89, 23);
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    -fx-padding: 5 5 5 5;
+    -fx-background-color: linear-gradient(#b3ccff, #334db3);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-radius: 20;
+    /*-fx-background-color: b3ccff;*/
+    -fx-border-color: rgb(49, 89, 23);
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    -fx-padding: 5 5 5 5;
+    -fx-background-color: linear-gradient(#334db3, #b3ccff);
+    /*-fx-effect: dropshadow( one-pass-box , black , 5 , 0.0 , 2 , 0 );*/
+}
+
+#playBt {
+
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+#playBt:hover {
+
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+
+#modeBt, #lyricBt {
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-font-size: 12px;
+}

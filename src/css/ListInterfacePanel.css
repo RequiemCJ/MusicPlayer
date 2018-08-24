@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-4-14, 17:04:57
+    Author     : chenjiawei
+*/
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color:
+        #334db3,
+        linear-gradient(to right, derive( #334db3,95%), derive( #334db3,10%)),
+        linear-gradient(to right, derive( #334db3,38%), derive(#334db3,-16%));
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0.5em; /* makes sure this remains circular 引用 */
+}
+
+.button {
+    -fx-background-radius: 30;
+    -fx-border-color: rgb(49, 89, 23);
+    -fx-border-width: 2;
+    -fx-border-radius: 30;
+    -fx-padding: 4 7 4 7;
+    -fx-font: 16px cursive;
+}
+
+#listTitle {
+    -fx-font: 36px cursive;
+    -fx-font-weight: bolder;  
+}
+
